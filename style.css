@@ -15,9 +15,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    padding-bottom: 500px;
+}
 #event-description{
-    background: url(../Landing-Page-SWTech-/img/astronautavr-sem-marca.jpg);
+    background-color: #1C2236;
     background-position: center;
     background-size: cover;
     height: 85vh;
@@ -99,4 +101,80 @@
 
 .btn:hover{
     opacity:1;
+}
+
+/* benefits */
+#key-benefits h2{
+    background-color: #E3EEFF;
+    text-align: center;
+    padding: 2em;
+    font-weight: bold;
+}
+.benefits{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    margin: 0 auto;
+    width: 80%;
+}
+.benefit{
+    color: var(--primary);
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20%;
+}
+.benefit .benefit-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+#benefit-1{
+    background-image: url("/img/imagem-1.webp");
+}
+#benefit-2{
+    background-image: url("/img/ia.jpeg");
+}
+#benefit-3{
+    background-image: url("/img/deaf.jpg");
+}
+/* event location*/
+
+#location{
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8));
+    background-image: url("/img/metaverso.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3em;
+    color: #FFFF;
+    
+}
+#address, #about-location{
+    max-width: 30%;
+    
+}
+#address{
+    display: flex;
+}
+#address i{
+    color: #08AAC7;
+    font-size: 4em;
+    margin-right: 0.5em;
+}
+#address-details{
+    text-align: center;
+    font-size: 1.3em;
+}
+#about-location h3{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+
 }
