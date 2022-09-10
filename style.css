@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@300&family=Noto+Serif+HK:wght@700&family=Noto+Serif+JP&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+:root{
+    --primary: #1C2236;
+    --secundary: #08AAC7;
+    --thirty: #9DA5A6; 
+    --text-color: black; 
+    --text-secundary: #FFFF;
+
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#event-description{
+    background: url(../Landing-Page-SWTech/img/astronautavr-sem-marca.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-secundary);
+}
+#disclaimer h2,
+#disclaimer .event-date{
+    color: var(--secundary);
+}
+
+#disclaimer h2{
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+#disclaimer .about-event{
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+   
+}
+
+#disclaimer p{
+    font-size: 1.2em;
+    margin-bottom: .3em;
+}
+
+#disclaimer .event-date{
+    font-weight: bold;
+}
+
+#subscription-form{
+    background-color: var(--thirty);
+    padding: 2em;
+    max-width: 27%;
+}
+
+#subscription-form p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #1C2236;
+    font-weight: bolder;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.form-group label{
+    color: black;
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+.form-group input,
+.form-group select{
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn{
+    background-color: var(--primary);
+    color: #FFFF;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+
+.btn:hover{
+    opacity:1;
+}
