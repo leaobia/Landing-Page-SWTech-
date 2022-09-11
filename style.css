@@ -131,12 +131,18 @@
 }
 #benefit-1{
     background: url("./img/imagem-1.webp");
+    background-position: center;
+    background-size: cover;
 }
 #benefit-2{
     background: url("./img/ia.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 #benefit-3{
     background: url("./img/deaf.jpg");
+    background-position: center;
+    background-size: cover;
 }
 /* event location*/
 
