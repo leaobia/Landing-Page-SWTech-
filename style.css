@@ -130,20 +130,20 @@
     margin-bottom: 1em;
 }
 #benefit-1{
-    background-image: url("/img/imagem-1.webp");
+    background-image: url("./img/imagem-1.webp");
 }
 #benefit-2{
-    background-image: url("/img/ia.jpeg");
+    background-image: url("./img/ia.jpeg");
 }
 #benefit-3{
-    background-image: url("/img/deaf.jpg");
+    background-image: url("./img/deaf.jpg");
 }
 /* event location*/
 
 #location{
     height: 400px;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8));
-    background-image: url("/img/Metaverso_746x419.jpg");
+    background-image: url("./img/Metaverso_746x419.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
